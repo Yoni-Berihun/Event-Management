@@ -1,0 +1,27 @@
+# Local / private data (do not push)
+ChatExport_2026-03-11/
+
+# Uploaded files (regenerate or import locally)
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Logs and debug
+*.log
+debug-*.log
+
+# Environment / secrets (if you add later)
+.env
+.env.*
+!.env.example
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# PHP
+vendor/
